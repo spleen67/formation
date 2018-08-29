@@ -17,4 +17,5 @@ hashes.delete("metier")
 hashes.delete(:hobby)
 puts hashes
 
+#parcours le H avec la methode each
 hashes.each {|key,value| puts "cle #{key} et la valeur #{value}"}
